@@ -1,14 +1,14 @@
 # :zap: Vite 설치방법
 ## :zap: Vite 프로젝트 만들기
-- NPM:
+- npm
 ```
 $ npm create vite@latest
 ```
-- Yarn:
+- yarn
 ```
 $ yarn create vite
 ```
-- PNPM:
+- pnpm
 ```
 $ pnpm create vite
 ```
@@ -44,7 +44,7 @@ pnpm create vite my-react-app --template react
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/prettier.png" alt="prettier">
 
-EsLint를 VsCode 확장프로그램에서 설치하기
+- EsLint를 VsCode 확장프로그램에서 설치하기
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/esLint.png" alt="EsLint">
 
