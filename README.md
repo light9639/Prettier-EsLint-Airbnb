@@ -39,6 +39,7 @@ pnpm create vite my-react-app --template react
   }
 }
 ```
+# Prettier-EsLint-Husky 설치방법
 ## :zap: 확장 프로그램 설치
 - Prettier - Code formatter를 VsCode 확장프로그램에서 설치하기
 
@@ -48,7 +49,7 @@ pnpm create vite my-react-app --template react
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/esLint.png" alt="EsLint">
 
-## :zap: Eslint Prettier 설치 / 연동
+## :zap: Prettier, Eslint, Husky 설치 / 연동
 - airbnb 스타일 가이드의 코드 규칙을 적용하기 위한 종속성 설치
 ```
 yarn add --dev eslint prettier
@@ -59,6 +60,11 @@ yarn add --dev eslint-config-airbnb
 ```
 yarn add --dev eslint-config-prettier
 yarn add --dev eslint-plugin-prettier
+```
+- Husky는 git hook을 이용해 git 단계별로 자동으로 lint+prettier 실행시켜주는 도구이다.
+- 주로 pre-commit 단계에서 사용합니다. (= git commit 명령어 후에 자동 실행)
+```
+yarn add husky -D
 ```
 ## :zap: .prettier.js 작성법
 - .prettier.js 파일 생성 후 작성(json 파일로 생성해도 되지만, 주석의 용이성을 위해서)
@@ -104,4 +110,12 @@ module.exports = {
         ],
     },
 };
+```
+## :zap: Husky package.json 작성법
+```
+  "husky": {
+      "hooks": {
+          "pre-commit": "yarn format && yarn lint;"
+      }
+  }
 ```
