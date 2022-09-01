@@ -1,5 +1,5 @@
 # :zap: Vite 설치방법
-## :zap: Vite 프로젝트 만들기
+## :boom: Vite 프로젝트 만들기
 - npm
 ```
 $ npm create vite@latest
@@ -12,7 +12,7 @@ $ yarn create vite
 ```
 $ pnpm create vite
 ```
-## :zap: Vite를 이용해 React 프로젝트를 만들려고 한다면
+## :fire: Vite를 이용해 React 프로젝트를 만들려고 한다면
 - npm 6.x
 ```
 npm create vite@latest my-react-app --template react
@@ -29,7 +29,7 @@ yarn create vite my-react-app --template react
 ```
 pnpm create vite my-react-app --template react
 ```
-## :zap: Vite package.json Script 부분 작성
+## :black_nib: Vite package.json Script 부분 작성
 ```
 {
   "scripts": {
@@ -39,8 +39,8 @@ pnpm create vite my-react-app --template react
   }
 }
 ```
-# Prettier-EsLint-Husky 설치방법
-## :zap: 확장 프로그램 설치
+# :zap: Prettier-EsLint-Husky 설치방법
+## :boom: 확장 프로그램 설치
 - Prettier - Code formatter를 VsCode 확장프로그램에서 설치하기
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/prettier.png" alt="prettier">
@@ -49,7 +49,7 @@ pnpm create vite my-react-app --template react
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/esLint.png" alt="EsLint">
 
-## :zap: Prettier, Eslint, Husky 설치 / 연동
+## :fire: Prettier, Eslint, Husky 설치 / 연동
 - airbnb 스타일 가이드의 코드 규칙을 적용하기 위한 종속성 설치
 ```
 yarn add --dev eslint prettier
@@ -66,7 +66,7 @@ yarn add --dev eslint-plugin-prettier
 ```
 yarn add husky -D
 ```
-## :zap: .prettier.js 작성법
+## :black_nib: .prettier.js 작성법
 - .prettier.js 파일 생성 후 작성(json 파일로 생성해도 되지만, 주석의 용이성을 위해서)
 ```
 module.exports = {
@@ -88,7 +88,7 @@ module.exports = {
 ```
 - 해당 세팅은 자신이 원하는대로 설정하면 됩니다
   - 참고: https://prettier.io/docs/en/configuration.html
-## :zap: .eslintrc.js 작성법
+## :black_nib: .eslintrc.js 작성법
 - .eslintrc.js 파일 생성 후 작성(json 파일로 생성해도 되지만, 주석의 용이성을 위해서)
 ```
 module.exports = {
@@ -111,7 +111,7 @@ module.exports = {
     },
 };
 ```
-## :zap: Husky package.json 작성법
+## :black_nib: Husky package.json 작성법
 ```
   "husky": {
       "hooks": {
