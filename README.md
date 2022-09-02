@@ -1,4 +1,5 @@
-# :zap: Vite 설치방법
+# :zap: Vite-Prettier-EsLint-Airbnb 설치방법
+![react-prettier-eslint-husky](https://user-images.githubusercontent.com/95972251/188041903-9b50b27b-316a-4269-86b8-8ec51349f07b.png)
 ## :boom: Vite 프로젝트 만들기
 - npm
 ```
