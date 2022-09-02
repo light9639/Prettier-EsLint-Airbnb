@@ -3,15 +3,15 @@
 ## :boom: Vite 프로젝트 만들기
 - npm
 ```
-$ npm create vite@latest
+npm create vite@latest
 ```
 - yarn
 ```
-$ yarn create vite
+yarn create vite
 ```
 - pnpm
 ```
-$ pnpm create vite
+pnpm create vite
 ```
 ## :fire: Vite를 이용해 React 프로젝트를 만들려고 한다면
 - npm 6.x
