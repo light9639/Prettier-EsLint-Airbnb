@@ -1,6 +1,9 @@
 # :zap: Vite-Prettier-EsLint-Airbnb 설치방법
 ![react-prettier-eslint-husky](https://user-images.githubusercontent.com/95972251/188041903-9b50b27b-316a-4269-86b8-8ec51349f07b.png)
-## :boom: Vite 프로젝트 만들기
+
+:sparkles: Vite-Prettier-EsLint-Airbnb 페이지입니다. :sparkles:
+
+## :tada: Vite 프로젝트 만들기
 - npm
 ```
 npm create vite@latest
@@ -13,7 +16,7 @@ yarn create vite
 ```
 pnpm create vite
 ```
-## :fire: Vite를 이용해 React 프로젝트를 만들려고 한다면
+## :gift: Vite를 이용해 React 프로젝트를 만들려고 한다면
 - npm 6.x
 ```
 npm create vite@latest my-react-app --template react
@@ -41,7 +44,7 @@ pnpm create vite my-react-app --template react
 }
 ```
 # :zap: Prettier-EsLint-Husky 설치방법
-## :boom: 확장 프로그램 설치
+## :tada: 확장 프로그램 설치
 - Prettier - Code formatter를 VsCode 확장프로그램에서 설치하기
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/prettier.png" alt="prettier">
@@ -50,7 +53,7 @@ pnpm create vite my-react-app --template react
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/esLint.png" alt="EsLint">
 
-## :fire: Prettier, Eslint, Husky 설치 / 연동
+## :white_check_mark: Prettier, Eslint, Husky 설치 / 연동
 - airbnb 스타일 가이드의 코드 규칙을 적용하기 위한 종속성 설치
 ```
 yarn add --dev eslint prettier
