@@ -16,7 +16,7 @@ yarn create vite
 ```
 pnpm create vite
 ```
-## :gift: Vite를 이용해 React 프로젝트를 만들려고 한다면
+## :confetti_ball: Vite를 이용해 React 프로젝트를 만들려고 한다면
 - npm 6.x
 ```
 npm create vite@latest my-react-app --template react
@@ -53,7 +53,7 @@ pnpm create vite my-react-app --template react
 
 <img src="https://raw.githubusercontent.com/light9639/Prettier-EsLint-Airbnb/main/public/esLint.png" alt="EsLint">
 
-## :white_check_mark: Prettier, Eslint, Husky 설치 / 연동
+## :confetti_ball: Prettier, Eslint, Husky 설치 / 연동
 - airbnb 스타일 가이드의 코드 규칙을 적용하기 위한 종속성 설치
 ```
 yarn add --dev eslint prettier
